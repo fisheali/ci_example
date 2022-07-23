@@ -12,7 +12,6 @@ class TestCase(unittest.TestCase):
         expected = "Goodbye World"
         self.assertNotEqual(task.my_func(), expected)
 
-
     def test3(self):
         expected = "Hello World"
         self.assertEqual(task.my_func(), expected)
